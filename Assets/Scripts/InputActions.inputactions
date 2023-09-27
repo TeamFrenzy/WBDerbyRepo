@@ -1,0 +1,114 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "b7695500-b369-4584-8879-219eefc21843",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "56523df7-1f39-4fd6-b49f-2eb1c522d7b5",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PrimaryContact",
+                    "type": "Value",
+                    "id": "34dcd682-5ea0-4963-b8e5-a82cbca759a2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PrimaryPosition",
+                    "type": "Value",
+                    "id": "c23e1754-93a2-43a9-9e9c-242e4260f467",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PrimaryTap",
+                    "type": "Button",
+                    "id": "5fdf18c8-fddf-4da6-bc08-b5d36fdfa9c8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap,SlowTap(duration=0.21)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PrimaryHold",
+                    "type": "Value",
+                    "id": "f5721d2e-11f0-4876-96f4-b2caa19df584",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5e609b40-1a30-4f96-b847-095ee286bdd1",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "77d902ba-65e4-449a-8f88-f07195b0f317",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryContact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a1dd927b-81bd-4370-ad81-0e38f6764974",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4583c7a7-f1bb-4bc9-9f7e-5a0e6357ac80",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryTap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dbedf27f-61a6-456a-9df0-f0e83107ebd9",
+                    "path": "<Touchscreen>/primaryTouch",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryHold",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
